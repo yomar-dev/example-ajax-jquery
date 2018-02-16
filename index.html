@@ -42,7 +42,8 @@
 					"url": "process.php",
 					"data": form
 				}).done(function(result){
-					
+					$("#info").addClass('data');
+					$("#info").html(result);
 				})
 			})			
 		}
